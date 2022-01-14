@@ -1,0 +1,61 @@
+Capstone Minimum Viable Product
+Covid-19 Data Exploration and Statistical Research
+
+Dataset 1: www.ourworldindata.org/covid-deaths
+Dataset 2: https://data.world/covid-19-data-resource-hub/covid-19-case-counts/workspace/file?filename=COVID-19+Activity.csv
+
+Project Description
+
+Like so many, Covid-19 has directly impacted my life. My twin boys are considered high risk, the shut down of schools and communities prompted my career change and ultimately lead me to DevMountain. Lastly, my husband and I have lost loved ones to this horrible disease.
+There is so much information about Covid-19. However, it can be overwhelming sifting through opinions, old or outdated information, or misrepresented data. My presentation will look objectively at the facts and dataset. 
+
+
+Hypothesis
+	The presence of smoking is related to increased fatal mortalities.
+	Age directly correlates with increased fatal mortality.
+	Being from a third world country decreases survival rates. 
+	Being fully vaccinated decreases fatal mortality rates. 
+
+
+Dataset Description
+
+Dataset 1 has several columns. I don’t plan to use all of them, there is just too much information to work with. While, filtering the information I will ensure that I remain objective and present factual, unbiased data. My initial exploration of the dataset shows these tables:  
+       ’location', 'date', 'total_cases', 'new_cases',
+       'new_cases_smoothed', 'total_deaths', 'new_deaths',
+       'new_deaths_smoothed', 'total_cases_per_million',
+       'new_cases_per_million', 'new_cases_smoothed_per_million',
+       'total_deaths_per_million', 'new_deaths_per_million',
+       'new_deaths_smoothed_per_million', 'reproduction_rate', 'icu_patients',
+       'icu_patients_per_million', 'hosp_patients',
+       'hosp_patients_per_million', 'weekly_icu_admissions',
+       'weekly_icu_admissions_per_million', 'weekly_hosp_admissions',
+       'weekly_hosp_admissions_per_million', 'new_tests', 'total_tests',
+       'total_tests_per_thousand', 'new_tests_per_thousand',
+       'new_tests_smoothed', 'new_tests_smoothed_per_thousand',
+       'positive_rate', 'tests_per_case', 'tests_units', 'total_vaccinations',
+       'people_vaccinated', 'people_fully_vaccinated', 'total_boosters',
+       'new_vaccinations', 'new_vaccinations_smoothed',
+       'total_vaccinations_per_hundred', 'people_vaccinated_per_hundred',
+       'people_fully_vaccinated_per_hundred', 'total_boosters_per_hundred',
+       'new_vaccinations_smoothed_per_million',
+       'new_people_vaccinated_smoothed',
+       'new_people_vaccinated_smoothed_per_hundred', 'stringency_index',
+       'population', 'population_density', 'median_age', 'aged_65_older',
+       'aged_70_older', 'gdp_per_capita', 'extreme_poverty',
+       'cardiovasc_death_rate', 'diabetes_prevalence', 'female_smokers',
+       'male_smokers', 'handwashing_facilities', 'hospital_beds_per_thousand',
+       'life_expectancy', 'human_development_index',
+       'excess_mortality_cumulative_absolute', 'excess_mortality_cumulative',
+       'excess_mortality', ‘excess_mortality_cumulative_per_million’]
+
+Dataset 2 also has several columns. Again, I plan to narrow the columns used to make it easier to work with the data. My initial exploration of the dataset shows these tables:
+	'PEOPLE_POSITIVE_CASES_COUNT', ‘COUNTY_NAME',
+	‘PROVINCE_STATE_NAME’, 'REPORT_DATE', ‘CONTINENT_NAME',
+	‘DATA_SOURCE_NAME’, ‘PEOPLE_DEATH_NEW_COUNT',
+	'COUNTY_FIPS_NUMBER', ‘COUNTRY_ALPHA_3_CODE’,
+	'COUNTRY_SHORT_NAME', ‘COUNTRY_ALPHA_2_CODE’,
+	'PEOPLE_POSITIVE_NEW_CASES_COUNT', 'PEOPLE_DEATH_COUNT'
+
+
+EDA- Exploratory Data Analysis
+I plan to use a variety of charts and visitations.  Line graphs, bar graphs and heat maps all seem applicable. It may also utilize the use of scatter plots. 
